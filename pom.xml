@@ -79,22 +79,7 @@
                                 </resource>
                             </resources>              
                         </configuration>            
-                    </execution>
-                    <!--execution>
-                        <id>restore-context-xml</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>copy-resources</goal>
-                        </goals>
-                        <configuration>
-                            <outputDirectory>src/main/resources</outputDirectory>
-                            <resources>          
-                                <resource>
-                                    <directory>src/main/temp</directory>
-                                </resource>
-                            </resources>              
-                        </configuration>            
-                    </execution-->
+                    </execution>                   
                 </executions>
             </plugin>
             <plugin>
